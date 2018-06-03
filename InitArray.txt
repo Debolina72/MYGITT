@@ -1,0 +1,29 @@
+//example uses command-line arguments to determine the size of an array, the
+value of its first element and the increment used to calculate the values of the array’s
+remaining elements. 
+//The command              java InitArray 5 0 4   passes three arguments, 5, 0 and 4, to the application InitArray.
+
+
+
+
+
+public class InitArray {
+public static void main( ) {
+// check number of command-line arguments
+ if( )
+ System.out.println( "Error: Please re-enter the entire command, including\n" +"an array size, initial value and increment.");
+ else
+    {
+// get array size from first command-line argument
+
+ int[] array = new int[ arrayLength ];    // create array
+
+ // get initial value and increment from command-line arguments
+System.out.printf( "%s%s\n", "Index", "Value" );
+
+ // display array index and value
+ for ( int counter = 0; counter < array.length; counter++ )
+ System.out.printf( "%d%d\n", counter, array[ counter ] );
+ } 
+} 
+ } 
